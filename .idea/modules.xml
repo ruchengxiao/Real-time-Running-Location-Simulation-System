@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/running-location-distribution/running-location-distribution.iml" filepath="$PROJECT_DIR$/running-location-distribution/running-location-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/running-location-service/running-location-service.iml" filepath="$PROJECT_DIR$/running-location-service/running-location-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/running-location-simulator/running-location-simulator.iml" filepath="$PROJECT_DIR$/running-location-simulator/running-location-simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/running-location-updater/running-location-updater.iml" filepath="$PROJECT_DIR$/running-location-updater/running-location-updater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nike-running.iml" filepath="$PROJECT_DIR$/spring-cloud-nike-running.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supply-location-service/supply-location-service.iml" filepath="$PROJECT_DIR$/supply-location-service/supply-location-service.iml" />
+    </modules>
+  </component>
+</project>
