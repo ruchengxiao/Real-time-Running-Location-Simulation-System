@@ -14,6 +14,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Real-time-Running-Location-Simulation-and-Monitoring-System" target="1.8" />
+      <module name="Real-time-Running-Location-Simulation-System" target="1.8" />
       <module name="running-location-distribution" target="1.8" />
       <module name="running-location-service" target="1.7" />
       <module name="running-location-simulator" target="1.8" />

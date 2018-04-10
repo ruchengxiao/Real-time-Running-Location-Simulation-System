@@ -152,7 +152,7 @@ public class GpsSimulator implements Runnable {
     void moveRunningLocation() {
         Double distance = speedInMps * reportInterval / 1000.0;
         Double distanceFromStart = positionInfo.getDistanceFromStart() + distance;
-        Double excess = 0.0; // amount by which next postion will exceed end
+        Double excess = 0.0; // amount by which next position will exceed end
         // point of present leg
 
         for (int i = positionInfo.getLeg().getId(); i < legs.size(); i++) {

@@ -7,7 +7,7 @@
     <description>Spring Nike Running Location Simulator</description>
 
     <parent>
-        <artifactId>spring-cloud-nike-running</artifactId>
+        <artifactId>Real-time-Running-Location-Simulation-System</artifactId>
         <groupId>com.ruchengxiao</groupId>
         <version>1.0.0.BUILD-SNAPSHOT</version>
     </parent>

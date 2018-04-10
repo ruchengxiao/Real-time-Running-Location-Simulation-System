@@ -19,6 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -32,7 +33,7 @@ public class DefaultPositionService implements PositionService {
     @Autowired
     private RestTemplate restTemplate;
 
-//    @Value("${com.ross.running.location.distribution}")
+//    @Value("${com.rucheng.running.location.distribution}")
 //    private String runningLocationDistribution;
 
     public DefaultPositionService() {
@@ -46,7 +47,7 @@ public class DefaultPositionService implements PositionService {
 
         String runningLocationDistribution = "http://running-location-distribution";
         if (sendPositionsToDistributionService) {
-            log.info("Simulator is callling distribution REST API");
+            log.info("Simulator is calling distribution REST API");
             this.restTemplate.postForLocation(runningLocationDistribution + "/api/locations", currentPosition);
 
         }

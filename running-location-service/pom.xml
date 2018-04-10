@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>com.ruchengxiao</groupId>
-        <artifactId>spring-cloud-nike-running</artifactId>
+        <artifactId>Real-time-Running-Location-Simulation-System</artifactId>
         <version>1.0.0.BUILD-SNAPSHOT</version>
     </parent>
 
